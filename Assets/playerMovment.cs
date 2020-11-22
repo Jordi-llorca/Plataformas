@@ -17,15 +17,15 @@ public class playerMovment : MonoBehaviour
     float currentRecovery;
     float currentFuel;
     bool canJet;
+    public barraJetPack fuelBar;
+    Rigidbody2D rig;
 
     //Ground Checker
     bool grounded = false;
     float groundCheckRadius = 0.01f;
     public LayerMask groundLayer;
     public Transform groundCheck;
-
-    public barraJetPack fuelBar;
-    Rigidbody2D rig;
+   
     void Start()
     {
         currentFuel = maxFuel;
