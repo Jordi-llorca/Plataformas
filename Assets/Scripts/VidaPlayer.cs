@@ -5,8 +5,8 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     
-    public float maxVida = 100.0f;
-    float actualVida;
+    public int maxVida = 100;
+    int actualVida;
 
     public bool inmortal = false;
     public float tiempoInmortal = 1.0f;
@@ -37,6 +37,8 @@ public class NewBehaviourScript : MonoBehaviour
         if (inmortal) return;
         
         actualVida -= daño;
+        //animation of getting hurt
+        //animator.SetTrigger("Hurt");
         StartCoroutine(TiempoInmortal());
     }
 
@@ -46,8 +48,10 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
 
-    public void Muerte()
+   void Muerte()
     {
+        //animation of dying
+        //animator.SetBool("isDead",true);
         Destroy(this.gameObject);
         SceneManager.LoadScene("GameOver");
       
