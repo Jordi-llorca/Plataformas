@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class SistemaVida : MonoBehaviour
 {
     public float maxVida = 100.0f;
     float actualVida;
@@ -50,4 +50,6 @@ public class NewBehaviourScript : MonoBehaviour
         yield return new WaitForSeconds(tiempoInmortal);
         inmortal = false;
     }
+
+    
 }
