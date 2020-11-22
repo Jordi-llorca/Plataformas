@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Daño : MonoBehaviour
+public class Curar : MonoBehaviour
 {
-    public float daño = 20;
+    public float vida = 20;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<SistemaVida>() != null)
         {
-            other.gameObject.GetComponent<SistemaVida>().QuitarVida(daño);
+            other.gameObject.GetComponent<SistemaVida>().DarVida(vida);
         }
-     
+
     }
 }

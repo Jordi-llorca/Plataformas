@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    
     public float maxVida = 100.0f;
     float actualVida;
 
     public bool inmortal = false;
     public float tiempoInmortal = 1.0f;
+    public float limitecaida = -20.0f;
+  
 
     private void Start()
     {
@@ -23,6 +26,9 @@ public class NewBehaviourScript : MonoBehaviour
             actualVida = maxVida;
 
         if (actualVida <= 0)
+            Muerte();
+
+        if (transform.positon.y <= limitecaida)
             Muerte();
     }
 
@@ -39,10 +45,15 @@ public class NewBehaviourScript : MonoBehaviour
         actualVida += vida;
     }
 
+
     public void Muerte()
     {
-        Destroy(this.gameObject); 
+        Destroy(this.gameObject);
+        SceneManager.LoadScene("GameOver");
+      
     }
+
+   
 
     IEnumerator TiempoInmortal()
     {
