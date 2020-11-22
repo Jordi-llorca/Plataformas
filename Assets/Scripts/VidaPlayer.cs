@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SistemaVida : MonoBehaviour
+public class VidaPlayer : MonoBehaviour
 {
     
     public float maxVida = 100.0f;

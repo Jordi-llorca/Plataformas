@@ -8,9 +8,9 @@ public class Curar : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<SistemaVida>() != null)
+        if (other.gameObject.GetComponent<VidaPlayer>() != null)
         {
-            other.gameObject.GetComponent<SistemaVida>().DarVida(vida);
+            other.gameObject.GetComponent<VidaPlayer>().DarVida(vida);
         }
 
     }
