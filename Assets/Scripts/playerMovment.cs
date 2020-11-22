@@ -56,12 +56,13 @@ public class playerMovment : MonoBehaviour
             rig.AddForce(new Vector2(0, velVert), ForceMode2D.Impulse);
             
         }
-        if(!jump) canJet = true;
+        if (!grounded) canJet = true;
         if (grounded) canJet = false;
 
         if(canJet && jet && currentFuel > 0)
         {
-            rig.AddForce(Vector2.up * jetForce);
+            rig.velocity = Vector2.up * jetForce;
+            //rig.AddForce(Vector2.up * jetForce);
             currentFuel = Mathf.Max(0, currentFuel - Time.fixedDeltaTime);
         }
 
