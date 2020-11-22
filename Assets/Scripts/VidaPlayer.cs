@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SistemaVida : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class SistemaVida : MonoBehaviour
         if (actualVida <= 0)
             Muerte();
 
-        if (transform.positon.y <= limitecaida)
+        if (transform.position.y <= limitecaida)
             Muerte();
     }
 
