@@ -9,7 +9,7 @@ public class projectile : MonoBehaviour
     public float distance;
     public int damage;
     public LayerMask whatIsSolid;
-    public GameObject destroyEffect;
+    //public GameObject destroyEffect;
     
     public void Start()
     {
@@ -30,7 +30,7 @@ public class projectile : MonoBehaviour
     }
     void DestroyProjectile()
     {
-        Instantiate(destroyEffect, transform.position, Quaternion.identity);
+        //Instantiate(destroyEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
