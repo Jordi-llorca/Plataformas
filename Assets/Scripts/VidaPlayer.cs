@@ -7,7 +7,7 @@ public class VidaPlayer : MonoBehaviour
 {
     
     public int maxVida = 100;
-    int actualVida;
+    float actualVida;
 
     public bool inmortal = false;
     public float tiempoInmortal = 1.0f;

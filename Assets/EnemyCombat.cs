@@ -7,6 +7,7 @@ public class EnemyCombat : MonoBehaviour
     public int maxHealth=100;
     int currentHealth;
     public Animator animator;
+    public static bool alive=true;
     void Start()
     {
         currentHealth=maxHealth;
@@ -27,7 +28,8 @@ public class EnemyCombat : MonoBehaviour
     {
         //animation of dying
         //animator.SetBool("isDead",true);
-        GetComponent<Collider2D>().enabled=false;
-        this.enabled=false;
+        GetComponent<Collider2D>().isTrigger=true;
+        GetComponent<Rigidbody2D>().constraints=RigidbodyConstraints2D.FreezeAll;
+        alive=false;
     }
 }

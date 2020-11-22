@@ -16,11 +16,14 @@ public class enemyMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Lgrounded = Physics2D.OverlapCircle(LgroundCheck.position, groundCheckRadius, groundLayer);
-        Rgrounded = Physics2D.OverlapCircle(RgroundCheck.position, groundCheckRadius, groundLayer);
-        transform.Translate(Vector3.right * velocity * movement * Time.deltaTime);
+        if(EnemyCombat.alive==true)
+        {
+            Lgrounded = Physics2D.OverlapCircle(LgroundCheck.position, groundCheckRadius, groundLayer);
+            Rgrounded = Physics2D.OverlapCircle(RgroundCheck.position, groundCheckRadius, groundLayer);
+            transform.Translate(Vector3.right * velocity * movement * Time.deltaTime);
 
-        if (!Lgrounded && movement != 1) movement *= -1;
-        if (!Rgrounded && movement != -1) movement *= -1;
+            if (!Lgrounded && movement != 1) movement *= -1;
+            if (!Rgrounded && movement != -1) movement *= -1;
+        }
     }
 }
