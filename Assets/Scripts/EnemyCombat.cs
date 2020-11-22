@@ -28,8 +28,8 @@ public class EnemyCombat : MonoBehaviour
     {
         //animation of dying
         //animator.SetBool("isDead",true);
-        GetComponent<Collider2D>().isTrigger=true;
-        GetComponent<Rigidbody2D>().constraints=RigidbodyConstraints2D.FreezeAll;
+        //GetComponent<Collider2D>().isTrigger=true;
+        GetComponent<Rigidbody2D>().constraints=RigidbodyConstraints2D.FreezePositionX;
         alive=false;
     }
 }

@@ -12,13 +12,13 @@ public class VidaPlayer : MonoBehaviour
     public bool inmortal = false;
     public float tiempoInmortal = 1.0f;
     public float limitecaida = -20.0f;
-  
 
+    public barraJetPack healthBar;
     private void Start()
     {
        
         actualVida = maxVida;
-
+        healthBar.SetMaxFuel(maxVida);
     }
 
     private void Update()
@@ -31,6 +31,7 @@ public class VidaPlayer : MonoBehaviour
 
         if (transform.position.y <= limitecaida)
             Muerte();
+
     }
 
     public void QuitarVida(float daño)
@@ -41,11 +42,14 @@ public class VidaPlayer : MonoBehaviour
         //animation of getting hurt
         //animator.SetTrigger("Hurt");
         StartCoroutine(TiempoInmortal());
+
+        healthBar.SetFuel(actualVida);
     }
 
     public void DarVida(float vida)
     {
         actualVida += vida;
+        healthBar.SetFuel(actualVida);
     }
 
 
