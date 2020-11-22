@@ -11,7 +11,7 @@ public class enemyMovement : MonoBehaviour
     int movement = 1;
     void FixedUpdate()
     {
-        if(EnemyCombat.alive==true)
+        if(GetComponent<EnemyCombat>().alive==true)
         {
             transform.Translate(Vector3.right * velocity * movement * Time.deltaTime);
 
