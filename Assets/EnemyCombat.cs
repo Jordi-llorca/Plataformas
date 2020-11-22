@@ -7,7 +7,7 @@ public class EnemyCombat : MonoBehaviour
     public int maxHealth=100;
     int currentHealth;
     public Animator animator;
-    public static bool alive=true;
+    public bool alive=true;
     void Start()
     {
         currentHealth=maxHealth;

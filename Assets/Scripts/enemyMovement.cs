@@ -16,7 +16,7 @@ public class enemyMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(EnemyCombat.alive==true)
+        if(GetComponent<EnemyCombat>().alive==true)
         {
             Lgrounded = Physics2D.OverlapCircle(LgroundCheck.position, groundCheckRadius, groundLayer);
             Rgrounded = Physics2D.OverlapCircle(RgroundCheck.position, groundCheckRadius, groundLayer);
