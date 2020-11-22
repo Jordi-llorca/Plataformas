@@ -10,18 +10,28 @@ public class playerMovment : MonoBehaviour
 
     //Movimiento Vertical
     public float velVert = 5f;
-    public float maximoJetpack = 10f;
-    float tiempoJetpack;
-    public float fuerzaJetpack = 3f;
+    public float maxFuel = 10f;
+    public float jetForce = 10f;
+    public float jetWait;
+    public float jetRecovery;
+    float currentRecovery;
+    float currentFuel;
+    bool canJet;
 
     //Ground Checker
     bool grounded = false;
-    float groundCheckRadius = 0.1f;
+    float groundCheckRadius = 0.01f;
     public LayerMask groundLayer;
     public Transform groundCheck;
+
+    public barraJetPack fuelBar;
+    Rigidbody2D rig;
     void Start()
     {
-        tiempoJetpack = maximoJetpack;
+        currentFuel = maxFuel;
+        fuelBar.SetMaxFuel(maxFuel);
+
+        rig = GetComponent<Rigidbody2D>();
     }
 
     
@@ -38,18 +48,31 @@ public class playerMovment : MonoBehaviour
 
     void movimientoVertical()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+        bool jet = Input.GetKey(KeyCode.Space);
+        bool jump = Input.GetKeyDown(KeyCode.Space);
+        if (jump && grounded)
         {
             grounded = false;
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, velVert), ForceMode2D.Impulse);
+            rig.AddForce(new Vector2(0, velVert), ForceMode2D.Impulse);
+            
         }
-        if (Input.GetKey(KeyCode.Space) && tiempoJetpack > 0)
+        if(!jump) canJet = true;
+        if (grounded) canJet = false;
+
+        if(canJet && jet && currentFuel > 0)
         {
-            //transform.Translate(Vector3.up * 10 * Time.deltaTime);
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, fuerzaJetpack), ForceMode2D.Impulse);
-            tiempoJetpack -= Time.deltaTime;
+            rig.AddForce(Vector2.up * jetForce);
+            currentFuel = Mathf.Max(0, currentFuel - Time.fixedDeltaTime);
         }
-        else if(grounded && tiempoJetpack < maximoJetpack) tiempoJetpack += Time.deltaTime;
+
+        if (grounded)
+        {
+            if (currentRecovery < jetWait)
+                currentRecovery = Mathf.Min(maxFuel, currentFuel + Time.fixedDeltaTime);
+            else
+                currentFuel = Mathf.Min(maxFuel, currentFuel + Time.fixedDeltaTime * jetRecovery);
+        }
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        fuelBar.SetFuel(currentFuel);
     }
 }
