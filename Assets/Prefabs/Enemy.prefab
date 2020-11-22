@@ -137,7 +137,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 1000
+  m_Constraints: 1004
 --- !u!61 &2030049961834284744
 BoxCollider2D:
   m_ObjectHideFlags: 0
