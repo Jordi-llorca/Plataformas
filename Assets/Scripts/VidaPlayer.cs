@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class VidaPlayer : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     
     public int maxVida = 100;
@@ -29,7 +28,7 @@ public class VidaPlayer : MonoBehaviour
         if (actualVida <= 0)
             Muerte();
 
-        if (transform.position.y <= limitecaida)
+        if (transform.positon.y <= limitecaida)
             Muerte();
     }
 
@@ -66,6 +65,4 @@ public class VidaPlayer : MonoBehaviour
         yield return new WaitForSeconds(tiempoInmortal);
         inmortal = false;
     }
-
-    
 }
