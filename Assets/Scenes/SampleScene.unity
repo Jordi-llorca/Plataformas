@@ -858,6 +858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyObject (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 590734731803299122, guid: 710885346e6305c49a94aaa468610eab,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 590734731923353170, guid: 710885346e6305c49a94aaa468610eab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1571,7 +1576,7 @@ GameObject:
   - component: {fileID: 7174145964241933681}
   m_Layer: 9
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1730,9 +1735,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7174145965872375390}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FlyingEnemyObject
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
