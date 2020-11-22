@@ -1,5 +1,77 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3845987653744997592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2410496802310425630}
+  - component: {fileID: 5292232961052938452}
+  m_Layer: 0
+  m_Name: Point Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2410496802310425630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3845987653744997592}
+  m_LocalRotation: {x: -0, y: -0, z: -0.032400742, w: 0.999475}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 13.891828, y: 46.31729, z: 0.08981191}
+  m_Children: []
+  m_Father: {fileID: 6107550098931185474}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5292232961052938452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3845987653744997592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.6509434, g: 0.34082413, b: 0.34082413, a: 1}
+  m_Intensity: 1.65
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 310bbebda573cc2e1b474a10
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0.354
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 2.770062
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &6107550098817291302
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,6 +116,7 @@ GameObject:
   - component: {fileID: 6107550098931185485}
   - component: {fileID: 6107550098931185484}
   - component: {fileID: 6107550098931185596}
+  - component: {fileID: 1111502896186879091}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
@@ -61,7 +134,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.07042888, y: 0.02159652, z: 11.134379}
-  m_Children: []
+  m_Children:
+  - {fileID: 2410496802310425630}
   m_Father: {fileID: 6107550099445859427}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -101,8 +175,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 273303323
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c3ebe5a684ee8894f96b9e2592af5ea2, type: 3}
   m_Color: {r: 0.6415094, g: 0.25720897, b: 0.25720897, a: 1}
@@ -195,6 +269,32 @@ MonoBehaviour:
   maxHealth: 100
   animator: {fileID: 0}
   alive: 1
+--- !u!114 &1111502896186879091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107550098931185473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: f1e7df96000000009f8fa3fc310bbebda573cc2e1b474a10
+  m_ShapePath:
+  - {x: -17.432526, y: -16.151918, z: -0.000000019331651}
+  - {x: 17.432533, y: -15.432839, z: -0.000000019331651}
+  - {x: 17.432533, y: 15.432858, z: -0.000000019331651}
+  - {x: -17.322279, y: 15.432946, z: -0.000000019331651}
+  m_ShapePathHash: 1639697994
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -102812
 --- !u!1 &6107550099445859424
 GameObject:
   m_ObjectHideFlags: 0
