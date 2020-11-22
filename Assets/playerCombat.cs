@@ -26,14 +26,14 @@ public class playerCombat : MonoBehaviour
 
     void Attack()
     {   
-        //animacion
+        //attacking animation
         //animator.SetTrigger("Attack");
-        //detectar enemigos
+        //detecting enemies
         Collider2D[] hitEnemies= Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         //daño
         foreach(Collider2D enemy in hitEnemies)
         {
-            //enemy.GetComponent<ScriptDelEnemigo>().TakeDamage(attackDamage);
+            enemy.GetComponent<EnemyCombat>().TakeDamage(attackDamage);
         }
     }
     void OnDrawGizmosSelected()
