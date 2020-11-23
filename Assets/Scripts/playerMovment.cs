@@ -76,4 +76,6 @@ public class playerMovment : MonoBehaviour
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         fuelBar.SetFuel(currentFuel);
     }
+
+    public bool isGrounded() { return grounded; }
 }
