@@ -19,10 +19,10 @@ public class enemyMovement : MonoBehaviour
         if (GetComponent<EnemyCombat>().alive)
         {
 
-            transform.Translate(Vector3.right * velocity * movement * Time.deltaTime);
+            //transform.Translate(Vector3.right * velocity * movement * Time.deltaTime);
             if (projectile != null) shotProjectile();
-            if (LCheck.position.x >= transform.position.x && movement != 1) movement *= -1;
-            if (RCheck.position.x <= transform.position.x && movement != -1) movement *= -1;
+            //if (LCheck.position.x >= transform.position.x && movement != 1) movement *= -1;
+            //if (RCheck.position.x <= transform.position.x && movement != -1) movement *= -1;
 
         }
         else
