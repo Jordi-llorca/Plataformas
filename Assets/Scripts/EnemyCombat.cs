@@ -10,9 +10,13 @@ public class EnemyCombat : MonoBehaviour
     public bool alive=true;
     public float damage;
     public LayerMask whatIsSolid;
+
+    public bool boss = false;
+    public barraJetPack bossBar;
     void Start()
     {
         currentHealth=maxHealth;
+        if (boss) bossBar.SetMaxFuel(maxHealth);
     }
 
     private void FixedUpdate()
@@ -23,7 +27,8 @@ public class EnemyCombat : MonoBehaviour
     {
         if (alive)
         {
-            RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.forward, Mathf.Infinity, whatIsSolid);
+            Vector3 prsjPos = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+            RaycastHit2D hitInfo = Physics2D.Raycast(prsjPos, transform.forward, Mathf.Infinity, whatIsSolid);
             if (hitInfo.collider != null)
             {
                 if (hitInfo.collider.CompareTag("Player"))
@@ -36,7 +41,7 @@ public class EnemyCombat : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth-=damage;
-
+        if (boss) bossBar.SetFuel(currentHealth);
         //animation of getting hurt
         //animator.SetTrigger("Hurt");
         if (currentHealth<=0)
@@ -50,7 +55,8 @@ public class EnemyCombat : MonoBehaviour
         //animator.SetBool("isDead",true);
         //GetComponent<Collider2D>().isTrigger=true;
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
+
         alive =false;
-        EnemyCounter.decreaseEnemys();
+        if(!boss) EnemyCounter.decreaseEnemys();
     }
 }

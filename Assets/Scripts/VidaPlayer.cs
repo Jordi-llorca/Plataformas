@@ -33,7 +33,6 @@ public class VidaPlayer : MonoBehaviour
             Muerte();
 
     }
-
     public void QuitarVida(float daño)
     {
         if (inmortal) return;
@@ -62,7 +61,6 @@ public class VidaPlayer : MonoBehaviour
       
     }
 
-   
 
     IEnumerator TiempoInmortal()
     {

@@ -11,6 +11,12 @@ public class chasePlayer : MonoBehaviour
     Rigidbody2D rb;
     public Transform LCheck;
     public Transform RCheck;
+
+    public GameObject projectile;
+    public float shotTime;
+    float timeToShot;
+
+    public bool volador = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,17 +28,32 @@ public class chasePlayer : MonoBehaviour
         float distToPlayer = Vector2.Distance(transform.position, player.position);
         if (GetComponent<EnemyCombat>().alive)
         {
-            if(distToPlayer<Range)
+            if(Mathf.Abs(transform.position.x - player.position.x) < 1) StopChasingPlayer();
+            if (transform.position.y - player.position.y > 1 && !volador) StopChasingPlayer();
+            else if(distToPlayer<Range)
             {
                 ChasePlayer();
-            } else 
+                if (volador) shotProjectile();
+            }
+            else 
             {
                 StopChasingPlayer();
             }
+
+            
         }
     }
-        
 
+    void shotProjectile()
+    {
+        if (timeToShot <= 0)
+        {
+            Instantiate(projectile, transform.position, transform.rotation);
+            timeToShot = shotTime;
+        }
+        else
+            timeToShot -= Time.fixedDeltaTime;
+    }
     private void StopChasingPlayer()
     {
         rb.velocity = new Vector2(0,0);
@@ -40,13 +61,12 @@ public class chasePlayer : MonoBehaviour
 
     public void ChasePlayer()
     {
-
-        if(transform.position.x<player.position.x && RCheck.position.x > transform.position.x)
+        if (transform.position.x < player.position.x && RCheck.position.x > transform.position.x)
         {
             //move to right
             rb.velocity = new Vector2(moveSpeed,0);
         }
-        else if (transform.position.x >player.position.x && LCheck.position.x < transform.position.x)
+        else if (transform.position.x > player.position.x && LCheck.position.x < transform.position.x)
         {
             //move to left
             rb.velocity = new Vector2(-moveSpeed,0);
