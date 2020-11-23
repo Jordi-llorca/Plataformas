@@ -204,12 +204,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: -1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 1004
+  m_Constraints: 1006
 --- !u!61 &6107550098931185485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -269,6 +269,10 @@ MonoBehaviour:
   maxHealth: 100
   animator: {fileID: 0}
   alive: 1
+  damage: 10
+  whatIsSolid:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1111502896186879091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,7 +298,7 @@ MonoBehaviour:
   - {x: -17.322279, y: 15.432946, z: -0.000000019331651}
   m_ShapePathHash: 1639697994
   m_Mesh: {fileID: 0}
-  m_InstanceId: 19526
+  m_InstanceId: 32028
 --- !u!1 &6107550099445859424
 GameObject:
   m_ObjectHideFlags: 0

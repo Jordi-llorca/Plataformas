@@ -58,7 +58,7 @@ public class VidaPlayer : MonoBehaviour
         //animation of dying
         //animator.SetBool("isDead",true);
         Destroy(this.gameObject);
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
       
     }
 
