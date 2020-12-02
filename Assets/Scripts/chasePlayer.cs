@@ -16,6 +16,8 @@ public class chasePlayer : MonoBehaviour
     public float shotTime;
     float timeToShot;
 
+    public Animator animator;
+
     public bool volador = false;
     void Start()
     {
@@ -33,10 +35,11 @@ public class chasePlayer : MonoBehaviour
             else if(distToPlayer<Range)
             {
                 ChasePlayer();
-                if (volador) shotProjectile();
-            }
+                if (volador) { shotProjectile(); animator.SetBool("chasing", true); }
+                }
             else 
             {
+                animator.SetBool("chasing", false);
                 StopChasingPlayer();
             }
 
@@ -48,6 +51,7 @@ public class chasePlayer : MonoBehaviour
     {
         if (timeToShot <= 0)
         {
+            animator.SetTrigger("Attack");
             Instantiate(projectile, transform.position, transform.rotation);
             timeToShot = shotTime;
         }

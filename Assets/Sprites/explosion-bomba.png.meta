@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 9b6054cc754e6f547b7605765404d060
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4248564143833251156
+    second: explosion-bomba_0
+  - first:
+      213: 3959081068563477585
+    second: explosion-bomba_1
+  - first:
+      213: -4945213322815834241
+    second: explosion-bomba_2
+  - first:
+      213: 5056125238146520384
+    second: explosion-bomba_3
+  - first:
+      213: -960587334250840986
+    second: explosion-bomba_4
+  - first:
+      213: -5344842102003622985
+    second: explosion-bomba_5
+  - first:
+      213: -5817552008621467131
+    second: explosion-bomba_6
+  - first:
+      213: 8024856209566106500
+    second: explosion-bomba_7
+  - first:
+      213: -933888100944021520
+    second: explosion-bomba_8
+  - first:
+      213: -4961257750348085882
+    second: explosion-bomba_9
+  - first:
+      213: -4368660544376381455
+    second: explosion-bomba_10
+  - first:
+      213: -5859703057980782305
+    second: explosion-bomba_11
+  - first:
+      213: -6472720585007858528
+    second: explosion-bomba_12
+  - first:
+      213: -6754494303984998851
+    second: explosion-bomba_13
+  - first:
+      213: 8677962050855470318
+    second: explosion-bomba_14
+  - first:
+      213: 583455965819356705
+    second: explosion-bomba_15
+  - first:
+      213: -5368040305225471420
+    second: explosion-bomba_16
+  - first:
+      213: 5289647102870984079
+    second: explosion-bomba_17
+  - first:
+      213: 5262747807313540240
+    second: explosion-bomba_18
+  - first:
+      213: 6130392656796442287
+    second: explosion-bomba_19
+  - first:
+      213: 2041353079660467151
+    second: explosion-bomba_20
+  - first:
+      213: -771924599058047692
+    second: explosion-bomba_21
+  - first:
+      213: -6848299389714515819
+    second: explosion-bomba_22
+  - first:
+      213: -4295306500932808499
+    second: explosion-bomba_23
+  - first:
+      213: -7237340649486782154
+    second: explosion-bomba_24
+  - first:
+      213: 706662658236097353
+    second: explosion-bomba_25
+  - first:
+      213: 502844893217654891
+    second: explosion-bomba_26
+  - first:
+      213: 5674062120927191540
+    second: explosion-bomba_27
+  - first:
+      213: -4952866706556652939
+    second: explosion-bomba_28
+  - first:
+      213: 7534302277505800467
+    second: explosion-bomba_29
+  - first:
+      213: -8170363117765144911
+    second: explosion-bomba_30
+  - first:
+      213: 1605436547416946224
+    second: explosion-bomba_31
+  - first:
+      213: -8895767868149151958
+    second: explosion-bomba_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: explosion-bomba_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 73
+        width: 117
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca28b59cb611a05c0800000000000000
+      internalID: -4248564143833251156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-bomba_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 65
+        width: 144
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15433b8714b71f630800000000000000
+      internalID: 3959081068563477585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-bomba_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 65
+        width: 157
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77780b0fa21f5bb0800000000000000
+      internalID: -4945213322815834241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-bomba_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 34
+        width: 198
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0455c979d17fa2640800000000000000
+      internalID: 5056125238146520384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-bomba_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 54
+        width: 158
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5244063, y: 0.42512187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c3d3ea8ee4ba2f0800000000000000
+      internalID: -960587334250840986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-bomba_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 56
+        width: 146
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5792378, y: 0.51268476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb95892d6e43d5b0800000000000000
+      internalID: -5344842102003622985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-bomba_6
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 81
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ad1c75547e34fa0800000000000000
+      internalID: -5817552008621467131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
