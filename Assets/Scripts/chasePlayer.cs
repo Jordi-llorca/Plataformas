@@ -19,6 +19,8 @@ public class chasePlayer : MonoBehaviour
     public Animator animator;
 
     public bool volador = false;
+    public bool boss = false;
+    bool right = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,7 +33,7 @@ public class chasePlayer : MonoBehaviour
         if (GetComponent<EnemyCombat>().alive)
         {
             if(Mathf.Abs(transform.position.x - player.position.x) < 1) StopChasingPlayer();
-            if (transform.position.y - player.position.y > 1 && !volador) StopChasingPlayer();
+            if (transform.position.y - player.position.y > 1 && !volador && !boss) StopChasingPlayer();
             else if(distToPlayer<Range)
             {
                 ChasePlayer();
@@ -69,11 +71,21 @@ public class chasePlayer : MonoBehaviour
         {
             //move to right
             rb.velocity = new Vector2(moveSpeed,0);
+            if (!right)
+            {
+                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                right = true;
+            }
         }
         else if (transform.position.x > player.position.x && LCheck.position.x < transform.position.x)
         {
             //move to left
             rb.velocity = new Vector2(-moveSpeed,0);
+            if (right)
+            {
+                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                right = false;
+            }
         } 
     }
 }
