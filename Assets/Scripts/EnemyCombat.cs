@@ -35,7 +35,7 @@ public class EnemyCombat : MonoBehaviour
             {
                 if (hitInfo.collider.CompareTag("Player"))
                 {
-                    FindObjectOfType<AudioManager>().Play("ImpactMetal2");
+                    FindObjectOfType<AudioManager>().Play("Imapct");
                     hitInfo.collider.GetComponent<VidaPlayer>().QuitarVida(damage);
                 }
             }
@@ -59,12 +59,12 @@ public class EnemyCombat : MonoBehaviour
     void Die()
     {
         //animation of dying
-        //animator.SetBool("isDead",true);
+        
         //GetComponent<Collider2D>().isTrigger=true;
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
 
         alive =false;
-        if(!boss) EnemyCounter.decreaseEnemys();
+        if (!boss) { EnemyCounter.decreaseEnemys(); animator.SetTrigger("die"); }
         else { loader.GetComponent<levelLoder>().loadLevel(0); }
     }
 }
