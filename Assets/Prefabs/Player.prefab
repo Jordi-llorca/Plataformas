@@ -431,7 +431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2437906535466830990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.88, y: -0.32, z: 0}
+  m_LocalPosition: {x: 1.13, y: -0.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2437906535705118751}
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movVel: 5
   velVert: 5
-  maxFuel: 3
+  maxFuel: 1.5
   jetForce: 5
   jetWait: 0.5
   jetRecovery: 2
@@ -673,7 +673,7 @@ MonoBehaviour:
   - {x: -0.3878522, y: -0.087402105, z: 0.00000047683716}
   m_ShapePathHash: 1551431291
   m_Mesh: {fileID: 0}
-  m_InstanceId: -3616
+  m_InstanceId: 253250
 --- !u!95 &8733918816481377829
 Animator:
   serializedVersion: 3
@@ -719,7 +719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2437906535734343733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.57, y: -0.34, z: 0}
+  m_LocalPosition: {x: 1.25, y: 0.84, z: 0}
   m_LocalScale: {x: 0.1296199, y: 0.016405018, z: 0.1296199}
   m_Children:
   - {fileID: 2437906534797800928}

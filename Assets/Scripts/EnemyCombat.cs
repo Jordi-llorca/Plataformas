@@ -65,6 +65,6 @@ public class EnemyCombat : MonoBehaviour
 
         alive =false;
         if (!boss) { EnemyCounter.decreaseEnemys(); animator.SetTrigger("die"); }
-        else { loader.GetComponent<levelLoder>().loadLevel(0); }
+        else { loader.GetComponent<levelLoder>().LoadNextLevel(); }
     }
 }

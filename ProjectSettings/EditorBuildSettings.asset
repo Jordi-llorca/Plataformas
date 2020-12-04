@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 54dd469286248db4a92ce08f64510c9a
+  - enabled: 1
     path: Assets/Scenes/BossLevel.unity
     guid: 37cb5380c83d92242a4232389899480d
+  - enabled: 1
+    path: Assets/Scenes/Victoria.unity
+    guid: 248ee6cc02d2e124e801e0136c177098
   m_configObjects: {}

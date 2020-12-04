@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2686168035074662563}
   - component: {fileID: 5781471936020650446}
   - component: {fileID: -1594503010265873254}
+  - component: {fileID: 2200443421132400908}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -103,3 +104,24 @@ MonoBehaviour:
     m_Bits: 1792
   destroyEffect: {fileID: 8248623347444341506, guid: a3c9a0430a135844e8a51359bd42cf36,
     type: 3}
+--- !u!50 &2200443421132400908
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467271228363138324}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 3
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0.5
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

@@ -68,7 +68,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: ImapctMetal2
+  - name: Imapct
     clip: {fileID: 8300000, guid: d7e7d69a78be40e478b44e239c9f3d92, type: 3}
     volume: 0.526
     pitch: 1

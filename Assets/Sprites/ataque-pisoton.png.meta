@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: bf67aec0a47c4ea4dba4d966989c287d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5357429162693299500
+    second: ataque-pisoton_0
+  - first:
+      213: -1230214707577855986
+    second: ataque-pisoton_1
+  - first:
+      213: 5376921198202671563
+    second: ataque-pisoton_2
+  - first:
+      213: 1255389851766002435
+    second: ataque-pisoton_3
+  - first:
+      213: 6369966433646893623
+    second: ataque-pisoton_4
+  - first:
+      213: 3607423104501810237
+    second: ataque-pisoton_5
+  - first:
+      213: 1422507855846135780
+    second: ataque-pisoton_6
+  - first:
+      213: 5845061477608122018
+    second: ataque-pisoton_7
+  - first:
+      213: 5956289717699389029
+    second: ataque-pisoton_8
+  - first:
+      213: -2807646255743239876
+    second: ataque-pisoton_9
+  - first:
+      213: 7171941181854477729
+    second: ataque-pisoton_10
+  - first:
+      213: -61393886764301402
+    second: ataque-pisoton_11
+  - first:
+      213: -9005390824110499357
+    second: ataque-pisoton_12
+  - first:
+      213: 2540439211007192365
+    second: ataque-pisoton_13
+  - first:
+      213: 4799430419812147798
+    second: ataque-pisoton_14
+  - first:
+      213: 7927574954349851875
+    second: ataque-pisoton_15
+  - first:
+      213: -5643806114946401324
+    second: ataque-pisoton_16
+  - first:
+      213: 8446008174328012896
+    second: ataque-pisoton_17
+  - first:
+      213: 4577026660278813641
+    second: ataque-pisoton_18
+  - first:
+      213: 7185455215571284873
+    second: ataque-pisoton_19
+  - first:
+      213: 4962958656459516601
+    second: ataque-pisoton_20
+  - first:
+      213: 3417312649556854305
+    second: ataque-pisoton_21
+  - first:
+      213: 6893318879687096807
+    second: ataque-pisoton_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ataque-pisoton_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 647
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2f858bf8696a5b0800000000000000
+      internalID: -5357429162693299500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_1
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 608
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e006c5dcd366deee0800000000000000
+      internalID: -1230214707577855986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_2
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 0
+        width: 647
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc153247759ae9a40800000000000000
+      internalID: 5376921198202671563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_3
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 647
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30394293b6a0c6110800000000000000
+      internalID: 1255389851766002435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_4
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 0
+        width: 634
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a5facc8baa66850800000000000000
+      internalID: 6369966433646893623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_5
+      rect:
+        serializedVersion: 2
+        x: 3765
+        y: 0
+        width: 647
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d340e5a5334201230800000000000000
+      internalID: 3607423104501810237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_6
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 0
+        width: 738
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e759edab53cdb310800000000000000
+      internalID: 1422507855846135780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_7
+      rect:
+        serializedVersion: 2
+        x: 5382
+        y: 0
+        width: 673
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6e6270274dd1150800000000000000
+      internalID: 5845061477608122018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_8
+      rect:
+        serializedVersion: 2
+        x: 6185
+        y: 0
+        width: 724
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566a8c2c0fdf8a250800000000000000
+      internalID: 5956289717699389029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_9
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 673
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39f77f1b9c3909d0800000000000000
+      internalID: -2807646255743239876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_10
+      rect:
+        serializedVersion: 2
+        x: 7802
+        y: 0
+        width: 712
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad6e6e918ad78360800000000000000
+      internalID: 7171941181854477729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_11
+      rect:
+        serializedVersion: 2
+        x: 8630
+        y: 0
+        width: 608
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a38804d592e52ff0800000000000000
+      internalID: -61393886764301402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_12
+      rect:
+        serializedVersion: 2
+        x: 9355
+        y: 0
+        width: 712
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9d45112cc660380800000000000000
+      internalID: -9005390824110499357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_13
+      rect:
+        serializedVersion: 2
+        x: 10209
+        y: 0
+        width: 802
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dae89a004714320800000000000000
+      internalID: 2540439211007192365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_14
+      rect:
+        serializedVersion: 2
+        x: 11089
+        y: 0
+        width: 724
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6526b11d9800b9240800000000000000
+      internalID: 4799430419812147798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_15
+      rect:
+        serializedVersion: 2
+        x: 11956
+        y: 0
+        width: 789
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e47e4c3b67640e60800000000000000
+      internalID: 7927574954349851875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_16
+      rect:
+        serializedVersion: 2
+        x: 12887
+        y: 0
+        width: 712
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db31799d3c2da1b0800000000000000
+      internalID: -5643806114946401324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_17
+      rect:
+        serializedVersion: 2
+        x: 13728
+        y: 0
+        width: 725
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060edd88faf363570800000000000000
+      internalID: 8446008174328012896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_18
+      rect:
+        serializedVersion: 2
+        x: 14557
+        y: 0
+        width: 828
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c349655f7dd48f30800000000000000
+      internalID: 4577026660278813641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_19
+      rect:
+        serializedVersion: 2
+        x: 15475
+        y: 0
+        width: 699
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983ba99c27dd7b360800000000000000
+      internalID: 7185455215571284873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_20
+      rect:
+        serializedVersion: 2
+        x: 16239
+        y: 0
+        width: 789
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba28396a98ffd440800000000000000
+      internalID: 4962958656459516601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_21
+      rect:
+        serializedVersion: 2
+        x: 17119
+        y: 0
+        width: 815
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1260943cfbbbc6f20800000000000000
+      internalID: 3417312649556854305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque-pisoton_22
+      rect:
+        serializedVersion: 2
+        x: 18063
+        y: 0
+        width: 803
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e93e3baffcf9af50800000000000000
+      internalID: 6893318879687096807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

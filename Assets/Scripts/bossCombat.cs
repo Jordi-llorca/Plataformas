@@ -46,6 +46,7 @@ public class bossCombat : MonoBehaviour
     {
         Instantiate(pisotonEffect, transform.position, Quaternion.identity);
         GetComponent<chasePlayer>().enabled = false;
+        animator.SetTrigger("pisoton");
         yield return new WaitForSeconds(pisotonTime);
         Instantiate(pisotonEffect2, transform.position, Quaternion.identity);
         if (player.GetComponent<playerMovment>().isGrounded())
