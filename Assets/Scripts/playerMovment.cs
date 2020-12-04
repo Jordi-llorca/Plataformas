@@ -21,10 +21,14 @@ public class playerMovment : MonoBehaviour
     Rigidbody2D rig;
 
     //Ground Checker
-    bool grounded = false;
+    bool grounded = true;
     float groundCheckRadius = 0.01f;
     public LayerMask groundLayer;
     public Transform groundCheck;
+
+    //Animator
+    public Animator animator;
+    float scalex;
    
     void Start()
     {
@@ -32,12 +36,27 @@ public class playerMovment : MonoBehaviour
         fuelBar.SetMaxFuel(maxFuel);
 
         rig = GetComponent<Rigidbody2D>();
+        animator=GetComponent<Animator>();
+        scalex = transform.localScale.x;
     }
 
     
     void Update()
     {
         movement = Input.GetAxis("Horizontal");
+        if (Input.GetKeyDown("a") )
+        {
+            animator.SetTrigger("correr");
+            transform.localScale = new Vector2(-scalex,transform.localScale.y);
+        }
+        if (Input.GetKeyDown("d") )
+        {
+            animator.SetTrigger("correr");
+            transform.localScale = new Vector2(scalex,transform.localScale.y);
+            
+        }
+        if (Input.GetKeyUp("a")){animator.SetTrigger("idle");}
+        if (Input.GetKeyUp("d")){animator.SetTrigger("idle");}
     }
 
     private void FixedUpdate()
@@ -52,6 +71,7 @@ public class playerMovment : MonoBehaviour
         bool jump = Input.GetKeyDown(KeyCode.Space);
         if (jump && grounded)
         {
+            animator.SetTrigger("volar");
             grounded = false;
             rig.AddForce(new Vector2(0, velVert), ForceMode2D.Impulse);
             
@@ -68,6 +88,7 @@ public class playerMovment : MonoBehaviour
 
         if (grounded)
         {
+            animator.SetTrigger("stopvolar");
             if (currentRecovery < jetWait)
                 currentRecovery = Mathf.Min(maxFuel, currentFuel + Time.fixedDeltaTime);
             else
