@@ -29,7 +29,7 @@ public class EnemyCombat : MonoBehaviour
     {
         if (alive)
         {
-            Vector3 prsjPos = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+            Vector3 prsjPos = new Vector3(transform.position.x, transform.position.y - (!boss ? 0.5f : 1.5f), transform.position.z);
             RaycastHit2D hitInfo = Physics2D.Raycast(prsjPos, transform.forward, Mathf.Infinity, whatIsSolid);
             if (hitInfo.collider != null)
             {

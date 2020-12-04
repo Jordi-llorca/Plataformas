@@ -75,7 +75,7 @@ public class playerMovment : MonoBehaviour
             
         }
         if (!grounded) canJet = true;
-        if (grounded) canJet = false;
+        if (grounded) canJet = true;
 
         if(canJet && jet && currentFuel > 0)
         {
