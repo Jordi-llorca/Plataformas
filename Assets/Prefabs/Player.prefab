@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 708036207970840974}
   - component: {fileID: 708036207970840975}
   - component: {fileID: 708036207970840968}
-  - component: {fileID: 8595686700871349961}
+  - component: {fileID: 5851091664201910199}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -233,8 +233,8 @@ MonoBehaviour:
   - {x: -0.3878522, y: -0.087402105, z: 0.00000047683716}
   m_ShapePathHash: 1551431291
   m_Mesh: {fileID: 0}
-  m_InstanceId: 37902
---- !u!95 &8595686700871349961
+  m_InstanceId: 36814
+--- !u!95 &5851091664201910199
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ public class chasePlayer : MonoBehaviour
             {
                 ChasePlayer();
                 if (volador) { shotProjectile(); animator.SetBool("chasing", true); }
-                }
+                } 
             else 
             {
                 animator.SetBool("chasing", false);

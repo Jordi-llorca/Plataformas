@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: 69517795af15ce94ab6f95e6e0382e5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6723925478944371519
+    second: correr-baston_0
+  - first:
+      213: 5688634183719324503
+    second: correr-baston_1
+  - first:
+      213: 4503739881954187550
+    second: correr-baston_2
+  - first:
+      213: -7726799160160757760
+    second: correr-baston_3
+  - first:
+      213: 1463817841393426514
+    second: correr-baston_4
+  - first:
+      213: 1301205422982758159
+    second: correr-baston_5
+  - first:
+      213: 3148177122958111564
+    second: correr-baston_6
+  - first:
+      213: -6953094092849802375
+    second: correr-baston_7
+  - first:
+      213: -8644417521324829463
+    second: correr-baston_8
+  - first:
+      213: -3594435516835965168
+    second: correr-baston_9
+  - first:
+      213: -912141167436341264
+    second: correr-baston_10
+  - first:
+      213: 721704597204519203
+    second: correr-baston_11
+  - first:
+      213: -5370298707180869168
+    second: correr-baston_12
+  - first:
+      213: 5940655644887344248
+    second: correr-baston_13
+  - first:
+      213: 411094473997214348
+    second: correr-baston_0
+  - first:
+      213: -1559606276736128988
+    second: correr-baston_1
+  - first:
+      213: -1670835360532676952
+    second: correr-baston_2
+  - first:
+      213: 5057023386289854117
+    second: correr-baston_3
+  - first:
+      213: 6212623908121135458
+    second: correr-baston_4
+  - first:
+      213: -6625592337730438143
+    second: correr-baston_5
+  - first:
+      213: -8969152657135773594
+    second: correr-baston_6
+  - first:
+      213: -1261092823854326555
+    second: correr-baston_7
+  - first:
+      213: 2920019973994932923
+    second: correr-baston_8
+  - first:
+      213: -8482053696364867242
+    second: correr-baston_9
+  - first:
+      213: -5729620230790153270
+    second: correr-baston_10
+  - first:
+      213: 7246852568203605016
+    second: correr-baston_11
+  - first:
+      213: 2646889961603987575
+    second: correr-baston_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: correr-baston_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 136
+        width: 502
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82eabbfe3084b500800000000000000
+      internalID: 411094473997214348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_1
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 252
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4286cadba5a2b5ae0800000000000000
+      internalID: -1559606276736128988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 156
+        width: 397
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeb941971000d8e0800000000000000
+      internalID: -1670835360532676952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_3
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 143
+        width: 373
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a656a00af72e2640800000000000000
+      internalID: 5057023386289854117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_4
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 123
+        width: 616
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269c8ae478ca73650800000000000000
+      internalID: 6212623908121135458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_5
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 146
+        width: 610
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf60b6fda2d04a0800000000000000
+      internalID: -6625592337730438143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_6
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 107
+        width: 610
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668db2fcd2b278380800000000000000
+      internalID: -8969152657135773594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_7
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 113
+        width: 541
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec5e5d12c2bf7ee0800000000000000
+      internalID: -1261092823854326555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_8
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 123
+        width: 426
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba630702bef58820800000000000000
+      internalID: 2920019973994932923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_9
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 113
+        width: 427
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651126e5a11b94a80800000000000000
+      internalID: -8482053696364867242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_10
+      rect:
+        serializedVersion: 2
+        x: 4904
+        y: 90
+        width: 462
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb7cd5c1cc4c70b0800000000000000
+      internalID: -5729620230790153270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_11
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 100
+        width: 551
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814376be30ef19460800000000000000
+      internalID: 7246852568203605016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correr-baston_12
+      rect:
+        serializedVersion: 2
+        x: 5977
+        y: 74
+        width: 577
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778f3f07564abb420800000000000000
+      internalID: 2646889961603987575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
