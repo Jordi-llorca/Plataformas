@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 8ff4a2efd02182e44b2c4c7b585a346b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1873407488192504678
+    second: plataformas_no_atravesables_0
+  - first:
+      213: -2804534020638427116
+    second: plataformas_no_atravesables_1
+  - first:
+      213: 5857452084326827108
+    second: plataformas_no_atravesables_2
+  - first:
+      213: 5792448307187589585
+    second: plataformas_no_atravesables_3
+  - first:
+      213: -3678077865855644952
+    second: plataformas_no_atravesables_4
+  - first:
+      213: 7791509756654448761
+    second: plataformas_no_atravesables_5
+  - first:
+      213: -776470506599589392
+    second: plataformas_no_atravesables_6
+  - first:
+      213: 4097622752623200590
+    second: plataformas_no_atravesables_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -71,9 +95,201 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_0
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2714
+        width: 258
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c9ab2b0d15006e0800000000000000
+      internalID: -1873407488192504678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2442
+        width: 259
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4183953da2b4419d0800000000000000
+      internalID: -2804534020638427116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_2
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2146
+        width: 258
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4640c27f2a9d94150800000000000000
+      internalID: 5857452084326827108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_3
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1724
+        width: 259
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1aab1bb09e26050800000000000000
+      internalID: 5792448307187589585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1564
+        width: 260
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea82751ba7d4fcc0800000000000000
+      internalID: -3678077865855644952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1205
+        width: 258
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f06da7d0012c60800000000000000
+      internalID: 7791509756654448761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1050
+        width: 259
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9509b203c6935f0800000000000000
+      internalID: -776470506599589392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_no_atravesables_7
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 696
+        width: 260
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e490aa1fe2eadd830800000000000000
+      internalID: 4097622752623200590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -71,7 +71,7 @@ public class playerMovment : MonoBehaviour
         bool jump = Input.GetKeyDown(KeyCode.Space);
         if (jump && grounded)
         {
-            animator.SetTrigger("volar");
+            animator.SetBool("volando", true);
             grounded = false;
             rig.AddForce(new Vector2(0, velVert), ForceMode2D.Impulse);
             
@@ -88,7 +88,7 @@ public class playerMovment : MonoBehaviour
 
         if (grounded)
         {
-            animator.SetTrigger("stopvolar");
+            animator.SetBool("volando", false);
             if (currentRecovery < jetWait)
                 currentRecovery = Mathf.Min(maxFuel, currentFuel + Time.fixedDeltaTime);
             else
