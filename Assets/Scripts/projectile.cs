@@ -30,6 +30,7 @@ public class projectile : MonoBehaviour
     }
     void DestroyProjectile()
     {
+        FindObjectOfType<AudioManager>().Play("GranadeExplosion");
         Instantiate(destroyEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1584566709140830288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1584566709140830294}
+  - component: {fileID: 1584566709140830295}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1584566709140830294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584566709140830288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3348511, y: 2.345664, z: -26.532778}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1584566709140830295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584566709140830288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551b339c0cf31e440906b353e8cb38a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BossTheme
+    clip: {fileID: 8300000, guid: f0fe87822c06e244bb9d955acd01f6c1, type: 3}
+    volume: 0.462
+    pitch: 0.69
+    loop: 1
+    source: {fileID: 0}
+  - name: ElectricArc
+    clip: {fileID: 8300000, guid: ef07bbe56ef1c3244b3630b0a220ad7e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GranadeExplosion
+    clip: {fileID: 8300000, guid: 54cfc384f0003f04eab6a6dc3a60d56d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ImpactMetal
+    clip: {fileID: 8300000, guid: 037e705a7beb4dc44b42ce2fec9a2cd4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ImapctMetal2
+    clip: {fileID: 8300000, guid: d7e7d69a78be40e478b44e239c9f3d92, type: 3}
+    volume: 0.526
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SteamRelease
+    clip: {fileID: 8300000, guid: b3a120a1d3e00bb49a6d21c8ef136692, type: 3}
+    volume: 0.526
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

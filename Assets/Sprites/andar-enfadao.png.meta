@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: 4d12aae708a69e344b6f746c26e120f0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -893663445808905453
+    second: andar-enfadao_0
+  - first:
+      213: 180047318295243825
+    second: andar-enfadao_1
+  - first:
+      213: 4399564642116622271
+    second: andar-enfadao_2
+  - first:
+      213: 8376794668619531996
+    second: andar-enfadao_3
+  - first:
+      213: 4742634606837119979
+    second: andar-enfadao_4
+  - first:
+      213: -6572948190989037521
+    second: andar-enfadao_5
+  - first:
+      213: -3631366391711600007
+    second: andar-enfadao_6
+  - first:
+      213: -4492683363637941106
+    second: andar-enfadao_7
+  - first:
+      213: 1500284570561058441
+    second: andar-enfadao_8
+  - first:
+      213: -6806574455798216297
+    second: andar-enfadao_9
+  - first:
+      213: 8390290123672910301
+    second: andar-enfadao_10
+  - first:
+      213: 4232340405685526513
+    second: andar-enfadao_11
+  - first:
+      213: -1237289909332667599
+    second: andar-enfadao_12
+  - first:
+      213: -4949560200694011833
+    second: andar-enfadao_13
+  - first:
+      213: 6434005739764716107
+    second: andar-enfadao_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +85,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +116,348 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: andar-enfadao_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 152
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3130fc3b4d11993f0800000000000000
+      internalID: -893663445808905453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 153
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cefb10518af7200800000000000000
+      internalID: 180047318295243825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 127
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7dabb6bb46e0d30800000000000000
+      internalID: 4399564642116622271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_3
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 0
+        width: 102
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd604737e5a504470800000000000000
+      internalID: 8376794668619531996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_4
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 0
+        width: 121
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb30002c0931d140800000000000000
+      internalID: 4742634606837119979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_5
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 0
+        width: 114
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f205d0df17238c4a0800000000000000
+      internalID: -6572948190989037521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_6
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 0
+        width: 128
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972fcbca18bca9dc0800000000000000
+      internalID: -3631366391711600007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_7
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 0
+        width: 126
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cad06b848c6a1c0800000000000000
+      internalID: -4492683363637941106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_8
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 0
+        width: 112
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9869a4a3ed412d410800000000000000
+      internalID: 1500284570561058441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_9
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 0
+        width: 112
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79946e068903a81a0800000000000000
+      internalID: -6806574455798216297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_10
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 0
+        width: 105
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9fdffe96c407470800000000000000
+      internalID: 8390290123672910301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_11
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 0
+        width: 114
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff1b61dc2b4cba30800000000000000
+      internalID: 4232340405685526513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_12
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 141
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1331d06026344dee0800000000000000
+      internalID: -1237289909332667599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_13
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 0
+        width: 120
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748e83ba831af4bb0800000000000000
+      internalID: -4949560200694011833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar-enfadao_14
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 0
+        width: 130
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b421089a12e2a4950800000000000000
+      internalID: 6434005739764716107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

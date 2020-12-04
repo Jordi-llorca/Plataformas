@@ -225,8 +225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  Range: 30
-  moveSpeed: 2
+  Range: 10
+  moveSpeed: 1
   LCheck: {fileID: 6107550098817291297}
   RCheck: {fileID: 6107550100233189079}
   projectile: {fileID: 1633585542215778650, guid: d34dafd61fa7c1945956a0942f45dac6,
@@ -284,7 +284,7 @@ MonoBehaviour:
   - {x: -0.32401228, y: 0.26942253, z: 0}
   m_ShapePathHash: 271148215
   m_Mesh: {fileID: 0}
-  m_InstanceId: 30616
+  m_InstanceId: 132320
 --- !u!58 &754312358715438213
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class EnemyCombat : MonoBehaviour
 
     public bool boss = false;
     public barraJetPack bossBar;
+
+    public GameObject loader;
     void Start()
     {
         currentHealth=maxHealth;
@@ -33,6 +35,7 @@ public class EnemyCombat : MonoBehaviour
             {
                 if (hitInfo.collider.CompareTag("Player"))
                 {
+                    FindObjectOfType<AudioManager>().Play("ImpactMetal2");
                     hitInfo.collider.GetComponent<VidaPlayer>().QuitarVida(damage);
                 }
             }
@@ -40,13 +43,17 @@ public class EnemyCombat : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        currentHealth-=damage;
-        if (boss) bossBar.SetFuel(currentHealth);
-        //animation of getting hurt
-        //animator.SetTrigger("Hurt");
-        if (currentHealth<=0)
+        if (alive)
         {
-            Die();
+            FindObjectOfType<AudioManager>().Play("ImpactMetal");
+            currentHealth -= damage;
+            if (boss) bossBar.SetFuel(currentHealth);
+            //animation of getting hurt
+            //animator.SetTrigger("Hurt");
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
         }
     }
     void Die()
@@ -58,5 +65,6 @@ public class EnemyCombat : MonoBehaviour
 
         alive =false;
         if(!boss) EnemyCounter.decreaseEnemys();
+        else { loader.GetComponent<levelLoder>().loadLevel(0); }
     }
 }

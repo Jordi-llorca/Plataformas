@@ -22,12 +22,16 @@ public class bossCombat : MonoBehaviour
     public float velocityDecrement = 3f;
     public float nubeGasTime = 5f;
 
+    public Animator animator;
+
     void Update()
     {
         timer -= Time.deltaTime;
         if(timer <= 0)
         {
             timer = timeToSpecialAttack;
+            animator.SetTrigger("AttaqueEspecial");
+            FindObjectOfType<AudioManager>().Play("SteamRelease");
             int rand = Random.Range(0, 3);
             switch (rand)
             {

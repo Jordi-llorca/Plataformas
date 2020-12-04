@@ -46,17 +46,16 @@ public class playerMovment : MonoBehaviour
         movement = Input.GetAxis("Horizontal");
         if (Input.GetKeyDown("a") )
         {
-            animator.SetTrigger("correr");
+            animator.SetBool("correr", true);
             transform.localScale = new Vector2(-scalex,transform.localScale.y);
         }
         if (Input.GetKeyDown("d") )
         {
-            animator.SetTrigger("correr");
+            animator.SetBool("correr", true);
             transform.localScale = new Vector2(scalex,transform.localScale.y);
             
         }
-        if (Input.GetKeyUp("a")){animator.SetTrigger("idle");}
-        if (Input.GetKeyUp("d")){animator.SetTrigger("idle");}
+        if (Input.GetKeyUp("a") || Input.GetKeyUp("d")) { animator.SetBool("correr", false); }
     }
 
     private void FixedUpdate()
@@ -71,7 +70,6 @@ public class playerMovment : MonoBehaviour
         bool jump = Input.GetKeyDown(KeyCode.Space);
         if (jump && grounded)
         {
-            animator.SetBool("volando", true);
             grounded = false;
             rig.AddForce(new Vector2(0, velVert), ForceMode2D.Impulse);
             
@@ -81,6 +79,7 @@ public class playerMovment : MonoBehaviour
 
         if(canJet && jet && currentFuel > 0)
         {
+            animator.SetBool("volando", true);
             rig.velocity = Vector2.up * jetForce;
             //rig.AddForce(Vector2.up * jetForce);
             currentFuel = Mathf.Max(0, currentFuel - Time.fixedDeltaTime);
